@@ -67,15 +67,15 @@ section .form .account a {
   font-size: 16px;
   font-weight: 600;
 }
-section form {
-  margin-top: 52px;
-}
 section form label {
   display: block;
   margin-bottom: 10px;
   font-size: 13px;
   font-weight: 500;
   color: var(--spanish-gray);
+}
+section form {
+  margin-top: 52px;
 }
 section form input {
   border: none;
