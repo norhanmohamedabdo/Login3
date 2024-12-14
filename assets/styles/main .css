@@ -45,3 +45,104 @@ header .logo {
   font-size: 20px;
   color: var(--black);
 }
+section .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+section .form {
+  width: 40%;
+}
+section .form h1 {
+  margin-bottom: 22px;
+  font-size: 30px;
+  font-weight: 500;
+}
+section .form .account {
+  font-size: 16px;
+}
+section .form .account a {
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 600;
+}
+section form {
+  margin-top: 52px;
+}
+section form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--spanish-gray);
+}
+section form input {
+  border: none;
+  outline: none;
+}
+section form .input {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--cetacean-blue);
+}
+section form .input :first-of-type {
+  margin-bottom: 30px;
+}
+section form .input input {
+  padding: 10px;
+}
+section form .input input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--cetacean-blue);
+}
+section form .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+section form .icons label {
+  display: inline;
+  color: var(--black);
+}
+section form .forgot-paddword {
+  color: var(--dark-liver);
+}
+section form .submit-btn {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 30px;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 32px;
+  box-shadow: 0 4px 26px rgb(var(--black) / 25%);
+}
+section .form .login {
+  margin-top: 30px;
+}
+section .form .login p {
+  text-align: center;
+  color: var(--philippine-silver);
+}
+section .form .login .icons ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 30px;
+}
+section .form .login .icons ul li {
+  margin: 0 10px;
+}
+section .container .img {
+  width: 40%;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--cetacean-blue);
+}
+section .container .img img {
+  width: 80%;
+}
